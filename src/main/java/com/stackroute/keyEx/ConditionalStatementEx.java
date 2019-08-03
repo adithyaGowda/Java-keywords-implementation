@@ -2,14 +2,46 @@ package com.stackroute.keyEx;
 
 public class ConditionalStatementEx {
 
-    public static void main(String[] args) {
-        boolean test = true;
-
+    //method to validate if-else condition
+    public void ifElse( boolean test) {
         if (test)
             System.out.println("printing true condition");
 
         else
-            System.out.println("printing false condition");        
+            System.out.println("printing false condition");
 
+    }
+
+    //method to validate if-else if condition
+    public void ifElseIF(int test){
+        if (test == 1)
+            System.out.println("printing if condition");
+        else if(test == 2)
+            System.out.println("printing else-if condition");
+        else
+            System.out.println("printing else condition");
+    }
+
+    //method to validate nested-if else condition
+    public void nestedIfElse(int test){
+        boolean flag = true;
+        if(test == 1){
+            if (flag){
+                System.out.println("printing inner if condition"+flag);
+            }
+            else{
+                System.out.println("printing inner if condition"+flag);
+            }
+        }
+        else if (test == 2){
+            if (flag){
+                System.out.println("printing inner if condition"+flag);
+            }
+            else{
+                System.out.println("printing inner if condition"+flag);
+            }
+        }
+        else
+            System.out.println("printing outer else condition");
     }
 }
