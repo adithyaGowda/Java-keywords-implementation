@@ -1,5 +1,6 @@
 package com.stackroute.keyEx;
 
+//creating parent class
 public class OopsEx {
     int x=20;
     public void test(){
@@ -7,6 +8,7 @@ public class OopsEx {
     }
 }
 
+//creating child class
 class ChildEx extends OopsEx{
 
     public void print(){
