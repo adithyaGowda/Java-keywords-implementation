@@ -34,7 +34,12 @@ public class MainClass {
 //        interfaceEx.print();
 //        interfaceEx.test();
 
+//        JavaBasics javaBasics = new JavaBasics();
+//        System.out.println(javaBasics.arithmetic());
 
+        ChildTest childTest = new ChildTest(1,"aaa",20);
+        childTest.test();
+        System.out.println(childTest.toString());
 
     }
 }

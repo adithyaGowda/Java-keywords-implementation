@@ -20,6 +20,7 @@ class DemoClass implements OopsInterfaceEx{
 
     }
 
+    //addingg new method to implementation
     public void newMethod(){
         System.out.println("adding new method to implmented class");
     }
