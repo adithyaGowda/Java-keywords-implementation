@@ -44,4 +44,22 @@ public class ConditionalStatementEx {
         else
             System.out.println("printing outer else condition");
     }
+
+    //method to validate switch condition
+    public void switchEx(int input){
+
+        switch (input){
+            case 1:
+                System.out.println("case 1");
+                break;
+
+            case 2:
+                System.out.println("case 2");
+                break;
+
+            default:
+                System.out.println("default");
+
+        }
+    }
 }

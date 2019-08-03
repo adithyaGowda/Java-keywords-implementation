@@ -8,7 +8,8 @@ public class MainClass {
         ex.ifElse(true);//calling ifElse method
         ex.ifElseIF(2);//calling ifElseIF method
         ex.nestedIfElse(1);//calling nestedIf method
-
+        ex.switchEx(3);//calling switchEx method
+        
 
 
     }
