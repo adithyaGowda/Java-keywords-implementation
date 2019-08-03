@@ -17,9 +17,15 @@ public class MainClass {
 //        loopsEx.doWhileLoop(0);//calling doWhileLoop method
 
         //creatin object of ArrayEx class
-        ArraysEx arraysEx = new ArraysEx();
-        int[] arr = {1,2,3,4,5};
-        arraysEx.arrayEx(arr);
+//        ArraysEx arraysEx = new ArraysEx();
+//        int[] arr = {1,2,3,4,5};
+//        arraysEx.arrayEx(arr);
+
+        //creating object of child class
+        ChildEx childEx = new ChildEx();
+        childEx.print();
+
+
 
     }
 }
