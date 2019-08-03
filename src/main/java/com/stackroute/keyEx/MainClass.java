@@ -13,8 +13,8 @@ public class MainClass {
         //creating object of LoopsEx class
         LoopsEx loopsEx = new LoopsEx();
         loopsEx.forLoop(5);//calling forLoop method
-        loopsEx.whileLoop(5);//calling whileLoop method
-        loopsEx.doWhileLoop(5);//calling doWhileLoop method
+        loopsEx.whileLoop(1);//calling whileLoop method
+        loopsEx.doWhileLoop(0);//calling doWhileLoop method
 
     }
 }

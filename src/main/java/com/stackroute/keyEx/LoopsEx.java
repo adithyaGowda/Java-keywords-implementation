@@ -10,16 +10,16 @@ public class LoopsEx {
 
     public void whileLoop(int test){
 
-        while(test == 0){
+        while(test < 5){
             System.out.println("Hello world");
-            test--;
+            test++;
         }
     }
 
     public  void doWhileLoop(int test){
         do {
             System.out.println("Hello world");
-            test--;
-        }while (test == 0);
+            test++;
+        }while (test < 5);
     }
 }
