@@ -25,14 +25,16 @@ public class MainClass {
 //        ChildEx childEx = new ChildEx();
 //        childEx.print();
 
-        DemoClass demoClass = new DemoClass();
-        demoClass.test();
-        demoClass.print();
-        demoClass.newMethod();
+//        DemoClass demoClass = new DemoClass();
+//        demoClass.test();
+//        demoClass.print();
+//        demoClass.newMethod();
+//
+//        OopsInterfaceEx interfaceEx = new DemoClass();
+//        interfaceEx.print();
+//        interfaceEx.test();
 
-        OopsInterfaceEx interfaceEx = new DemoClass();
-        interfaceEx.print();
-        interfaceEx.test();
+
 
     }
 }
